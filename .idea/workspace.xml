@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3961422c-71db-4649-b612-e53fa720b951" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1123.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1116/幂函数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/notebook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/notebook.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -29,6 +32,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -47,6 +51,35 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="幂函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="notebook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1116" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1116/幂函数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.幂函数" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -60,7 +93,8 @@
       <workItem from="1573915630713" duration="411000" />
       <workItem from="1573992530130" duration="2053000" />
       <workItem from="1574339583874" duration="347000" />
-      <workItem from="1574493034279" duration="661000" />
+      <workItem from="1574493034279" duration="1042000" />
+      <workItem from="1574495710840" duration="1015000" />
     </task>
     <task id="LOCAL-00001" summary="依稀江南">
       <created>1573994109321</created>
@@ -76,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574339603630</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="北京会议中心">
+      <created>1574494566103</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574494566104</updated>
+    </task>
+    <task id="LOCAL-00004" summary="北京会议中心">
+      <created>1574494578350</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574494578350</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +146,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="依稀江南" />
     <MESSAGE value="不写代码也要日常打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="不写代码也要日常打卡" />
+    <MESSAGE value="北京会议中心" />
+    <option name="LAST_COMMIT_MESSAGE" value="北京会议中心" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/notebook$.coverage" NAME="幂函数 Coverage Results" MODIFIED="1574496310588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1116" />
   </component>
 </project>
