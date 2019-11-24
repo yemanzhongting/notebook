@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3961422c-71db-4649-b612-e53fa720b951" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1116/幂函数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/notebook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/notebook.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1123.md" beforeDir="false" afterPath="$PROJECT_DIR$/1123.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +92,8 @@
       <workItem from="1573992530130" duration="2053000" />
       <workItem from="1574339583874" duration="347000" />
       <workItem from="1574493034279" duration="1042000" />
-      <workItem from="1574495710840" duration="1015000" />
+      <workItem from="1574495710840" duration="1079000" />
+      <workItem from="1574587216433" duration="707000" />
     </task>
     <task id="LOCAL-00001" summary="依稀江南">
       <created>1573994109321</created>
@@ -124,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574494578350</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="幂函数PPT插图">
+      <created>1574496747839</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574496747839</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +153,8 @@
     <MESSAGE value="依稀江南" />
     <MESSAGE value="不写代码也要日常打卡" />
     <MESSAGE value="北京会议中心" />
-    <option name="LAST_COMMIT_MESSAGE" value="北京会议中心" />
+    <MESSAGE value="幂函数PPT插图" />
+    <option name="LAST_COMMIT_MESSAGE" value="幂函数PPT插图" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/notebook$.coverage" NAME="幂函数 Coverage Results" MODIFIED="1574496310588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1116" />
