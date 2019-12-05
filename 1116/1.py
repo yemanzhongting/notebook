@@ -23,7 +23,7 @@ def getdata():
     driver.get('http://manu52.magtech.com.cn/journalx_gxb/authorLogOn.action')
 
     driver.find_element_by_xpath('//*[@id="user_name"]').send_keys('yemanzhongting')
-    driver.find_element_by_xpath('//*[@id="password"]').send_keys('whu3_13')
+    driver.find_element_by_xpath('//*[@id="password"]').send_keys('')
     driver.find_element_by_xpath("//input[@onclick='login()']").click()
 
     #driver.implicitly_wait(3)
