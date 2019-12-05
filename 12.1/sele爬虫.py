@@ -65,38 +65,65 @@ js = 'document.querySelector("body > div.m-layer > div.inner > div > div:nth-chi
 #document.querySelector("body > div.m-layer > div.inner > div > div:nth-child(1) > dl.time.clearfix > dd > select:nth-child(2)").removeAttribute('readonly')
 driver.execute_script(js)
 
-selector = Select(driver.find_element_by_id("selectdemo"))
+#执行js
+js = 'document.querySelector("body > div.m-layer > div.inner > div > div:nth-child(1) > dl.time.clearfix > dd > input[type=text]:nth-child(3)").removeAttribute("readonly")'#"$('input:eq(0)').removeAttr('readonly')"  # jQuery，移除属性
+# js = "$('input:eq(0)').attr('readonly',false)"  # jQuery，设置为false
+#document.querySelector("body > div.m-layer > div.inner > div > div:nth-child(1) > dl.time.clearfix > dd > select:nth-child(2)").removeAttribute('readonly')
+driver.execute_script(js)
 
-# 下面三种方法用于选择"篮球运动员"
-selector.select_by_index("2")  # 通过index进行选择,index从0开始
-selector.select_by_value("210103")  # 通过value属性值进行选择
-selector.select_by_visible_text("篮球运动员")  # 通过标签显示的text进行选择
+# selector = Select(driver.find_element_by_xpath('/html/body/div[7]/div[2]/div/div[1]/dl[2]/dd/label[3]'))#find_element_by_id("selectdemo"))
+#
+# # 下面三种方法用于选择"篮球运动员"
+# #selector.select_by_index("2")  # 通过index进行选择,index从0开始
+# #selector.select_by_value("210103")  # 通过value属性值进行选择
+# selector.select_by_visible_text("原创")  # 通过标签显示的text进行选择
 
+driver.find_element_by_xpath('//*[@id="radio03"]').click()
 
+driver.find_element_by_xpath('/html/body/div[7]/div[2]/div/div[1]/dl[4]/dd/input[1]').clear()
+driver.find_element_by_xpath('/html/body/div[7]/div[2]/div/div[1]/dl[4]/dd/input[1]').send_keys('2019-12-01')
 
-count=0
-for i in range(20):
-    driver.execute_script('window.scrollTo(0,document.body.scrollHeight)')
+driver.find_element_by_xpath('/html/body/div[7]/div[2]/div/div[1]/dl[4]/dd/input[2]').clear()
+driver.find_element_by_xpath('/html/body/div[7]/div[2]/div/div[1]/dl[4]/dd/input[2]').send_keys('2019-12-02')
 
-    e_item = driver.find_elements_by_xpath('//*[@class="card-list"]//div[@class="weibo-text"]')
-    #e_item = driver.find_elements_by_xpath('//*[@class="card-list"]//div[@class="weibo-text"]')
+sel=driver.find_element_by_xpath('/html/body/div[7]/div[2]/div/div[1]/dl[5]/dd/select[1]')
+#driver.find_element_by_xpath('/html/body/div[7]/div[2]/div/div[1]/dl[4]/dd/input[1]').clear()
+Select(sel).select_by_visible_text('福建')
+sel=driver.find_element_by_xpath('/html/body/div[7]/div[2]/div/div[1]/dl[5]/dd/select[2]')
+#driver.find_element_by_xpath('/html/body/div[7]/div[2]/div/div[1]/dl[4]/dd/input[2]').clear()
+Select(sel).select_by_visible_text('福州')
 
-    if i !=0:
-        print('\n'.join([e.text for e in e_item[-27:]]))
-        count =count+10
-    else:
-        print('\n'.join([e.text for e in e_item]))
-        count = count + 27
-    time.sleep(random.uniform(3,5))
+#/html/body/div[7]/div[2]/div/div[1]/dl[4]/dd/select[1]
+sel=driver.find_element_by_xpath('/html/body/div[7]/div[2]/div/div[1]/dl[4]/dd/select[1]')
+Select(sel).select_by_visible_text('8时')
+sel=driver.find_element_by_xpath('/html/body/div[7]/div[2]/div/div[1]/dl[4]/dd/select[2]')
+Select(sel).select_by_visible_text('8时')
 
+driver.find_element_by_xpath('/html/body/div[7]/div[2]/div/div[2]/a[1]').click()
 
-
-#e_item = driver.find_elements_by_xpath('//div[@class="result c-container "]')
-
-#    test=driver.find_element_by_xpath('//*[@class="weibo-text"]/text()')#('//*[@class="weibo-text"]')
-    #print(test)
-
-driver.quit()
+# count=0
+# for i in range(20):
+#     driver.execute_script('window.scrollTo(0,document.body.scrollHeight)')
+#
+#     e_item = driver.find_elements_by_xpath('//*[@class="card-list"]//div[@class="weibo-text"]')
+#     #e_item = driver.find_elements_by_xpath('//*[@class="card-list"]//div[@class="weibo-text"]')
+#
+#     if i !=0:
+#         print('\n'.join([e.text for e in e_item[-27:]]))
+#         count =count+10
+#     else:
+#         print('\n'.join([e.text for e in e_item]))
+#         count = count + 27
+#     time.sleep(random.uniform(3,5))
+#
+#
+#
+# #e_item = driver.find_elements_by_xpath('//div[@class="result c-container "]')
+#
+# #    test=driver.find_element_by_xpath('//*[@class="weibo-text"]/text()')#('//*[@class="weibo-text"]')
+#     #print(test)
+#
+# driver.quit()
 
 
 
