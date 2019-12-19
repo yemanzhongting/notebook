@@ -38,6 +38,24 @@ login_xpath='//*[@id="pl_login_form"]/div/div[3]/div[6]/a'
 
 #driver.implicitly_wait(1)
 
+#ALF=1577794254; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WW_U-piXhYkoCDoBcSWvGnm5JpX5K-hUgL.Fo-ESKnNeh5pShM2dJLoI0qLxKBLB.BL1-eLxK-LBo5L12qLxK-LB-qL1KzLxK-L1KqLBo-LxK-L1KqLBo-LxK-LB.eLBK5t; _T_WM=96218712805; SCF=Arnxjp0L_i1cDcGLDQ7dciPttPY2-QiWWf-ofMEjBGtJ0cRPPJAo6ERVXWpX-TpaE0wlBTRH9sXr78_KFXUtwzw.; SUB=_2A25w594CDeRhGeNM7loW8C7NzzuIHXVQK-JKrDV6PUJbktAKLRTukW1NSa5q35Ob8J8S-NOdwP1CCdiU4tAQz-om; SUHB=0U1Zn80fIE2ZbA
+
+# for cookie in bdcookie:
+#     driver.add_cookie({
+#             "domain":".baidu.com",
+#             "name":cookie,
+#             "value":bdcookie[cookie],
+#             "path":'/',
+#             "expires":None
+#         })
+
+# lists = cookie.split(';')
+# bdcookie = {}
+# for i in lists:
+#     j = i.strip()
+#     j = j.split('=')
+#     bdcookie[j[0]] = j[1]
+
 #driver.find_element_by_xpath('//*[@id="loginName"]').click()
 
 driver.find_element_by_xpath('//*[@id="loginName"]').send_keys(name)

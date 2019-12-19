@@ -12,6 +12,10 @@ import numpy
 import math
 from pylab import *
 
+
+from matplotlib.font_manager import _rebuild
+_rebuild()
+
 plt.rcParams['font.family'] = ['sans-serif']
 plt.rcParams['font.sans-serif'] = ['SimHei']
 
@@ -28,5 +32,7 @@ plt.text(0.5,7.5,r'$x^-1$',fontsize=16)
 plt.title('幂函数',fontsize=16)
 plt.xlabel("节点的度")
 plt.ylabel("节点个数")
-savefig('power.png',dpi=300)
+plt.rcParams['font.sans-serif']=['SimHei'] #用来正常显示中文标签
+
+savefig('power.pdf',dpi=1000)
 show()
